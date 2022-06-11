@@ -1,9 +1,11 @@
-检测步骤：
+# 检测步骤：
 
  	1. 将你想要识别的图片或者视频放入test文件夹中
  	2. 执行python detect.py --source [test下的文件路径]
 
 
+
+## 若想自己训练请按照以下yolo官方文档步骤进行
 
 <div align="center">
 <p>
