@@ -1,3 +1,10 @@
+检测步骤：
+
+ 	1. 将你想要识别的图片或者视频放入test文件夹中
+ 	2. 执行python detect.py --source [test下的文件路径]
+
+
+
 <div align="center">
 <p>
    <a align="left" href="https://ultralytics.com/yolov5" target="_blank">
@@ -12,13 +19,30 @@
    <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
    <a href="https://www.kaggle.com/ultralytics/yolov5"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
    <a href="https://join.slack.com/t/ultralytics/shared_invite/zt-w29ei8bp-jczz7QYUmDtgo6r6KcMIAg"><img src="https://img.shields.io/badge/Slack-Join_Forum-blue.svg?logo=slack" alt="Join Forum"></a>
-</div>
+</div
+
+f="https://ultralytics.com/yolov5" target="_blank">
+   <img width="850" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/splash.jpg"></a>
+</p>
+<br>
+<div>
+   <a href="https://github.com/ultralytics/yolov5/actions"><img src="https://github.com/ultralytics/yolov5/workflows/CI%20CPU%20testing/badge.svg" alt="CI CPU testing"></a>
+   <a href="https://zenodo.org/badge/latestdoi/264818686"><img src="https://zenodo.org/badge/264818686.svg" alt="YOLOv5 Citation"></a>
+   <a href="https://hub.docker.com/r/ultralytics/yolov5"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
+   <br>
+   <a href="https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+   <a href="https://www.kaggle.com/ultralytics/yolov5"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
+   <a href="https://join.slack.com/t/ultralytics/shared_invite/zt-w29ei8bp-jczz7QYUmDtgo6r6KcMIAg"><img src="https://img.shields.io/badge/Slack-Join_Forum-blue.svg?logo=slack" alt="Join Forum"></a>
+</div
+
 
 <br>
+
 <p>
 YOLOv5 🚀 is a family of object detection architectures and models pretrained on the COCO dataset, and represents <a href="https://ultralytics.com">Ultralytics</a>
  open-source research into future vision AI methods, incorporating lessons learned and best practices evolved over thousands of hours of research and development.
 </p>
+
 
 <div align="center">
    <a href="https://github.com/ultralytics">
@@ -66,6 +90,7 @@ See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on tr
 <details open>
 <summary>Install</summary>
 
+
 Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
 [**Python>=3.7.0**](https://www.python.org/) environment, including
 [**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
@@ -80,6 +105,7 @@ pip install -r requirements.txt  # install
 
 <details open>
 <summary>Inference</summary>
+
 
 Inference with YOLOv5 and [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36)
 . [Models](https://github.com/ultralytics/yolov5/tree/master/models) download automatically from the latest
@@ -106,6 +132,7 @@ results.print()  # or .show(), .save(), .crop(), .pandas(), etc.
 <details>
 <summary>Inference with detect.py</summary>
 
+
 `detect.py` runs inference on a variety of sources, downloading [models](https://github.com/ultralytics/yolov5/tree/master/models) automatically from
 the latest YOLOv5 [release](https://github.com/ultralytics/yolov5/releases) and saving results to `runs/detect`.
 
@@ -123,6 +150,7 @@ python detect.py --source 0  # webcam
 
 <details>
 <summary>Training</summary>
+
 
 The commands below reproduce YOLOv5 [COCO](https://github.com/ultralytics/yolov5/blob/master/data/scripts/get_coco.sh)
 results. [Models](https://github.com/ultralytics/yolov5/tree/master/models)
@@ -146,6 +174,7 @@ python train.py --data coco.yaml --cfg yolov5n.yaml --weights '' --batch-size 12
 
 <details open>
 <summary>Tutorials</summary>
+
 
 - [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)  🚀 RECOMMENDED
 - [Tips for Best Training Results](https://github.com/ultralytics/yolov5/wiki/Tips-for-Best-Training-Results)  ☘️
@@ -186,6 +215,7 @@ Get started in seconds with our verified environments. Click each icon below for
     </a>
 </div>
 
+
 ## <div align="center">Integrations</div>
 
 <div align="center">
@@ -197,9 +227,10 @@ Get started in seconds with our verified environments. Click each icon below for
     </a>
 </div>
 
-|Weights and Biases|Roboflow ⭐ NEW|
-|:-:|:-:|
-|Automatically track and visualize all your YOLOv5 training runs in the cloud with [Weights & Biases](https://wandb.ai/site?utm_campaign=repo_yolo_readme)|Label and export your custom datasets directly to YOLOv5 for training with [Roboflow](https://roboflow.com/?ref=ultralytics) |
+
+|                      Weights and Biases                      |                        Roboflow ⭐ NEW                        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| Automatically track and visualize all your YOLOv5 training runs in the cloud with [Weights & Biases](https://wandb.ai/site?utm_campaign=repo_yolo_readme) | Label and export your custom datasets directly to YOLOv5 for training with [Roboflow](https://roboflow.com/?ref=ultralytics) |
 
 <!-- ## <div align="center">Compete and Win</div>
 
@@ -210,16 +241,21 @@ We are super excited about our first-ever Ultralytics YOLOv5 🚀 EXPORT Competi
   <img width="850" src="https://github.com/ultralytics/yolov5/releases/download/v1.0/banner-export-competition.png"></a>
 </p> -->
 
+
 ## <div align="center">Why YOLOv5</div>
 
 <p align="left"><img width="800" src="https://user-images.githubusercontent.com/26833433/155040763-93c22a27-347c-4e3c-847a-8094621d3f4e.png"></p>
 <details>
   <summary>YOLOv5-P5 640 Figure (click to expand)</summary>
 
+
 <p align="left"><img width="800" src="https://user-images.githubusercontent.com/26833433/155040757-ce0934a3-06a6-43dc-a979-2edbbd69ea0e.png"></p>
+
 </details>
+
 <details>
   <summary>Figure Notes (click to expand)</summary>
+
 
 - **COCO AP val** denotes mAP@0.5:0.95 metric measured on the 5000-image [COCO val2017](http://cocodataset.org) dataset over various inference sizes from 256 to 1536.
 - **GPU Speed** measures average inference time per image on [COCO val2017](http://cocodataset.org) dataset using a [AWS p3.2xlarge](https://aws.amazon.com/ec2/instance-types/p3/) V100 instance at batch-size 32.
@@ -230,22 +266,23 @@ We are super excited about our first-ever Ultralytics YOLOv5 🚀 EXPORT Competi
 
 ### Pretrained Checkpoints
 
-|Model |size<br><sup>(pixels) |mAP<sup>val<br>0.5:0.95 |mAP<sup>val<br>0.5 |Speed<br><sup>CPU b1<br>(ms) |Speed<br><sup>V100 b1<br>(ms) |Speed<br><sup>V100 b32<br>(ms) |params<br><sup>(M) |FLOPs<br><sup>@640 (B)
-|---                    |---  |---    |---    |---    |---    |---    |---    |---
-|[YOLOv5n][assets]      |640  |28.0   |45.7   |**45** |**6.3**|**0.6**|**1.9**|**4.5**
-|[YOLOv5s][assets]      |640  |37.4   |56.8   |98     |6.4    |0.9    |7.2    |16.5
-|[YOLOv5m][assets]      |640  |45.4   |64.1   |224    |8.2    |1.7    |21.2   |49.0
-|[YOLOv5l][assets]      |640  |49.0   |67.3   |430    |10.1   |2.7    |46.5   |109.1
-|[YOLOv5x][assets]      |640  |50.7   |68.9   |766    |12.1   |4.8    |86.7   |205.7
-|                       |     |       |       |       |       |       |       |
-|[YOLOv5n6][assets]     |1280 |36.0   |54.4   |153    |8.1    |2.1    |3.2    |4.6
-|[YOLOv5s6][assets]     |1280 |44.8   |63.7   |385    |8.2    |3.6    |12.6   |16.8
-|[YOLOv5m6][assets]     |1280 |51.3   |69.3   |887    |11.1   |6.8    |35.7   |50.0
-|[YOLOv5l6][assets]     |1280 |53.7   |71.3   |1784   |15.8   |10.5   |76.8   |111.4
-|[YOLOv5x6][assets]<br>+ [TTA][TTA]|1280<br>1536 |55.0<br>**55.8** |72.7<br>**72.7** |3136<br>- |26.2<br>- |19.4<br>- |140.7<br>- |209.8<br>-
+| Model                              | size<br><sup>(pixels) | mAP<sup>val<br>0.5:0.95 | mAP<sup>val<br>0.5 | Speed<br><sup>CPU b1<br>(ms) | Speed<br><sup>V100 b1<br>(ms) | Speed<br><sup>V100 b32<br>(ms) | params<br><sup>(M) | FLOPs<br><sup>@640 (B) |
+| ---------------------------------- | --------------------- | ----------------------- | ------------------ | ---------------------------- | ----------------------------- | ------------------------------ | ------------------ | ---------------------- |
+| [YOLOv5n][assets]                  | 640                   | 28.0                    | 45.7               | **45**                       | **6.3**                       | **0.6**                        | **1.9**            | **4.5**                |
+| [YOLOv5s][assets]                  | 640                   | 37.4                    | 56.8               | 98                           | 6.4                           | 0.9                            | 7.2                | 16.5                   |
+| [YOLOv5m][assets]                  | 640                   | 45.4                    | 64.1               | 224                          | 8.2                           | 1.7                            | 21.2               | 49.0                   |
+| [YOLOv5l][assets]                  | 640                   | 49.0                    | 67.3               | 430                          | 10.1                          | 2.7                            | 46.5               | 109.1                  |
+| [YOLOv5x][assets]                  | 640                   | 50.7                    | 68.9               | 766                          | 12.1                          | 4.8                            | 86.7               | 205.7                  |
+|                                    |                       |                         |                    |                              |                               |                                |                    |                        |
+| [YOLOv5n6][assets]                 | 1280                  | 36.0                    | 54.4               | 153                          | 8.1                           | 2.1                            | 3.2                | 4.6                    |
+| [YOLOv5s6][assets]                 | 1280                  | 44.8                    | 63.7               | 385                          | 8.2                           | 3.6                            | 12.6               | 16.8                   |
+| [YOLOv5m6][assets]                 | 1280                  | 51.3                    | 69.3               | 887                          | 11.1                          | 6.8                            | 35.7               | 50.0                   |
+| [YOLOv5l6][assets]                 | 1280                  | 53.7                    | 71.3               | 1784                         | 15.8                          | 10.5                           | 76.8               | 111.4                  |
+| [YOLOv5x6][assets]<br>+ [TTA][TTA] | 1280<br>1536          | 55.0<br>**55.8**        | 72.7<br>**72.7**   | 3136<br>-                    | 26.2<br>-                     | 19.4<br>-                      | 140.7<br>-         | 209.8<br>-             |
 
 <details>
   <summary>Table Notes (click to expand)</summary>
+
 
 - All checkpoints are trained to 300 epochs with default settings. Nano and Small models use [hyp.scratch-low.yaml](https://github.com/ultralytics/yolov5/blob/master/data/hyps/hyp.scratch-low.yaml) hyps, all others use [hyp.scratch-high.yaml](https://github.com/ultralytics/yolov5/blob/master/data/hyps/hyp.scratch-high.yaml).
 - **mAP<sup>val</sup>** values are for single-model single-scale on [COCO val2017](http://cocodataset.org) dataset.<br>Reproduce by `python val.py --data coco.yaml --img 640 --conf 0.001 --iou 0.65`
@@ -296,6 +333,7 @@ professional support requests please visit [https://ultralytics.com/contact](htt
         <img src="https://github.com/ultralytics/yolov5/releases/download/v1.0/logo-social-instagram.png" width="3%"/>
     </a>
 </div>
+
 
 [assets]: https://github.com/ultralytics/yolov5/releases
 [tta]: https://github.com/ultralytics/yolov5/issues/303
